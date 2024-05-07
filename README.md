@@ -4,3 +4,4 @@
 - Repositório criado durante a execução de um curso.
 
 - Essa linha foi adicionada diretamente no Github.
+- Essa linha foi adicionada pelo readme.md para aprender markdown
