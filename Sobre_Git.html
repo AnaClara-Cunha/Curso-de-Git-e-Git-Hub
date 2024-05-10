@@ -6,11 +6,100 @@
     <title>Informações sobre a ferramenta git e a ferramenta Github</title>
 </head>
 <body>
-    <h1>Entendendo comandos</h1>
-    <li>
-        <i>Push -> Pega a alteração do repositório local, Git, e envia para o repositório remoto.</i>
-        <i>Pull -> Pega a alteração do repositório remoto, Github, e envia para o repositório local.</i>
-        <i>Commit - envia/salva a alteração, mas não a faz trafegar entre os diferentes repositórios.</i>
-    </li>
+    <h1>Entendendo Git e Git Hub</h1>
+    <h2>Comandos gerais</h2>
+    <ul type="square">
+        <li>Push -> Pega a alteração do repositório local, Git, e envia para o repositório remoto.</li>
+        <li>Pull -> Pega a alteração do repositório remoto, Github, e envia para o repositório local.</li>
+        <li>Commit - envia/salva a alteração, mas não a faz trafegar entre os diferentes repositórios.</li>
+        <li>Fetch Origin -> Vai no repostório remoto e confere se ele está de acordo com o local. Sempre fazer isso ao começar um trabalho.</li>
+    </ul>
+
+    <h2>Sobre GitHub</h2>
+    <ul type="disc">
+        <li>Issue -> No uso individual, seria quando você encontra um problema ou tem uma dúvida que precisa resolver. Também pode se tratar de um problema gerado internamente, no Github. São problemas. É possível, inclusive, acessar o repositório do VScode e, nas issues, procurar por um erro. Se você está tendo um erro ao programar, é possível descobrir como resolvê-lo fazendo isso.</li>
+        <ul>
+            <li>Importante: SEMPRE procurar se a issue existe, antes de abrir uma nova. É mal visto na comunidade fazer a mesma pergunta que outrem já fez.</li>
+        </ul>
+        <li>Pull Request -> No uso individual e pensando em um exemplo, enquadra-se como a solução de um problema ou uma mudança. Se você encontra um erro no código ou faz uma melhoria, mas alguém precisa revisar antes, por exemplo, você pode criar um PR para enviar a mudança para o master.</li>
+    </ul>
+
+    <h2>Markdown: Guia Rápido</h2>
+
+        ## Títulos
+        - Para títulos: # + 1 espaço (a quantidade de hastags diz o nível do título)
+        
+        ---
+        ## Marcações do texto
+        - Dois asterísticos ou hífens/traços: **Negrito**
+        - Um asterístico ou um hífen/traço: *Itálico*
+        - Um til: ~Palavra riscada~
+        - Traço + dois colchetes: checkbox
+        - [] Teste
+          - Para marcar o checkbox, basta colocar um x dentro dos colchetes:
+             - [x] Teste
+        - "Seta" para frente: Citações
+        > Isso é uma citação.
+        - 3 hífens/traços: Linha
+        ---
+        
+        ## Listas
+        
+        ### Lista Ordenada 
+        - Número + ponto final: não precisa ter o número em ordem, basta ser um número + ponto
+        1. Item 1
+        2. Item 2
+        3. Item 3
+        
+        - Sem ordenação dos números, mas continua ordenada:
+        12. Aqui escrevi 12
+        23. Aqui escrevi 23
+        144. Aqui escrevi 144
+        
+        ### Lista Não Ordenada
+        - Utiliza-se hífen/traço, pode indentar usando espaços.
+        - Item 1
+        - Item 2
+        - Item 3
+        ---
+        ## Links
+        - Adicionar link a um texto, basta utilizar colchetes + parênteses: [No colchetes, vai o que você quer que seja visto. Nos parênteses, o link](olink.com)
+        - Adicionar uma imagem via link, basta utilizar exclamação + colchetes + parênteses: ![
+        ![Texto Alternativo](URL da Imagem)
+        
+        ---
+        ## Tabelas
+        - Utiliza-se "|" para separar colunas
+        - Para separar linhas, pula-se parágrafo
+        - É necessário fazer um "---|---|---" com as colunas para tornar a linha o título da tabela e formar uma tabela de fato.
+        
+        - Com "---|---|---":
+        
+        Num | Nome | Nota
+        ---|---|---
+        1 | Ana Clara | 10
+        2 | Bernando | 10
+        
+        - Sem "---|---|---":
+        
+        Num | Nome | Nota
+        1 | Ana Clara | 10
+        2 | Bernando | 10
+        
+        ---
+        ## Código
+        
+        - Colocar palavra entre crases: `para código` 
+        - Colocar entre 3 crases: ``` + para código indentado (mostra corretamente) + ```
+        
+        --- 
+        #Emoji
+        
+        - Colocar o nome do emoji, como: :monkey: :smile:
+        
+        ---
+        
+        Prontinho! :heart:
+
 </body>
 </html>
